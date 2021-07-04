@@ -1,0 +1,12 @@
+{
+  "name": "sql-exercises",
+  "version": "1.0.0",
+  "description": "<sup>Reference: [pgexercises.com](https://pgexercises.com/)</sup>",
+  "main": "index.js",
+  "scripts": {
+    "seed": "psql -d sql_exercises -a -f ./clubdata.sql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

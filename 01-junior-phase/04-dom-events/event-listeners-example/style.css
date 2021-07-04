@@ -1,0 +1,41 @@
+body {
+  background-color: silver;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+#list-of-houses {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 80.4px - 68px);
+}
+
+#list-of-houses h2 {
+  font-size: 80px;
+  color: white;
+  flex-basis: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+#gryffindor {
+  background-color: maroon;
+}
+
+#slytherin {
+  background-color: darkgreen;
+}
+
+#hufflepuff {
+  background-color: goldenrod;
+}
+
+#ravenclaw {
+  background-color: darkblue;
+}

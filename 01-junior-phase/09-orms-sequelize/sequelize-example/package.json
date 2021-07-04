@@ -1,0 +1,22 @@
+{
+  "name": "sequelize-example",
+  "version": "1.0.0",
+  "description": "## To get start: 1. `createdb wiki` (or create database in Postico or `create database wiki;` in psql) 2. `npm install` 3. `npm start` 4. Go to `localhost:8080` to see the home page!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.selected {
+  border: 5px dotted purple;
+}
+
+li {
+  display: block;
+  font-size: 20px;
+}
